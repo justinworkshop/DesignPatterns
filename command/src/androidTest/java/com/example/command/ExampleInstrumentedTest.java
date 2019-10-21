@@ -1,4 +1,4 @@
-package com.hytera.command;
+package com.example.command;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.hytera.command;
+package com.example.command;
 
 import org.junit.Test;
 
