@@ -1,1 +1,1 @@
-include ':app', ':interpreter', ':command'
+include ':app', ':interpreter', ':command', ':mediator'
