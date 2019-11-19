@@ -1,1 +1,1 @@
-include ':app', ':interpreter', ':command', ':mediator', ':flyweight', ':appreciatesolidandlod', ':composite'
+include ':app', ':interpreter', ':command', ':mediator', ':flyweight', ':appreciatesolidandlod', ':composite', ':singleton'
