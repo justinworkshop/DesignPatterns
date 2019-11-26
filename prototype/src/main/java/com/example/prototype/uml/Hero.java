@@ -8,6 +8,9 @@ import android.util.Log;
  * Author: wei.zheng
  * Date: 2019/11/25 21:59
  * Description: Hero为具体原型类
+ * 1.什么是深拷贝？浅拷贝？
+ * 2.值传递？引用传递？
+ * 3.如何应用保护性拷贝？
  */
 public class Hero implements Cloneable {
     private static final String TAG = "Hero";
