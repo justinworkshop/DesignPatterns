@@ -55,9 +55,9 @@ public class Hero implements Cloneable {
     protected Hero clone() {
         try {
             Hero hero = (Hero) super.clone();
-            hero.name = this.name;
-            hero.age = this.age;
-            hero.sect = this.sect;
+//            hero.name = this.name;
+//            hero.age = this.age;
+//            hero.sect = this.sect;
             return hero;
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();

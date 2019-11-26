@@ -13,7 +13,7 @@ public class Client {
     public static void main(String[] args) {
         Hero hero1 = new Hero();
         hero1.setName("li yun long");
-        hero1.setAge(50);
+        hero1.setAge(48);
         hero1.setSect("ni tui zi");
         Log.d("Hero", hero1.toString());
 
