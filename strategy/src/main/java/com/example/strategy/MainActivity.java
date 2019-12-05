@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         mCalculatorContext = new CalculatorContext();
+
         mCalculatorContext.setStrategy(new BusStrategy());
         int busPrice = mCalculatorContext.calculatePrice(20);
 
