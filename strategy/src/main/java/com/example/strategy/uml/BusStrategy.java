@@ -1,4 +1,4 @@
-package com.example.designpatterns.uml;
+package com.example.strategy.uml;
 
 /**
  * Copyright (C), 2016-2020
