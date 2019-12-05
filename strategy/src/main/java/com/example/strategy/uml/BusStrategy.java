@@ -4,12 +4,14 @@ package com.example.strategy.uml;
  * Copyright (C), 2016-2020
  * FileName: BusStrategy
  * Author: wei.zheng
- * Date: 2019/12/5 19:55
- * Description: 公交车策略
+ * Date: 2019/12/5 20:25
+ * Description: 公共汽车策略
  */
-public class BusStrategy implements Strategy {
+public class BusStrategy implements IStrategy {
+
+    /* 1块钱起步， 每5公里加1块 */
     @Override
     public int calculatePrice(int distance) {
-        return 1 + 1 * distance / 2;
+        return 1 + distance / 5;
     }
 }
