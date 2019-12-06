@@ -12,6 +12,10 @@ public class BusStrategy implements IStrategy {
     /* 1块钱起步， 每5公里加1块 */
     @Override
     public int calculatePrice(int distance) {
+        if (distance <= 0) {
+            return 0;
+        }
+
         return 1 + distance / 5;
     }
 }

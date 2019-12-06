@@ -23,6 +23,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
+        testStrategyPattern();
+    }
+
+    /**
+     * 策略模式使用示例
+     */
+    private void testStrategyPattern() {
         mCalculatorContext = new CalculatorContext();
 
         mCalculatorContext.setStrategy(new BusStrategy());
