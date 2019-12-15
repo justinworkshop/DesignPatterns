@@ -8,14 +8,14 @@ package com.example.command.uml2;
  * Description: DownCommand
  */
 public class DownCommand implements ICommand {
-    private MachineReceiver mechineReceiver;
+    private MachineReceiver machineReceiver;
 
-    public DownCommand(MachineReceiver mechineReceiver) {
-        this.mechineReceiver = mechineReceiver;
+    public DownCommand(MachineReceiver machineReceiver) {
+        this.machineReceiver = machineReceiver;
     }
 
     @Override
     public void execute() {
-        mechineReceiver.toDown();
+        machineReceiver.toDown();
     }
 }

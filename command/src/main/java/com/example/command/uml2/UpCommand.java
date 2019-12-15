@@ -8,14 +8,14 @@ package com.example.command.uml2;
  * Description: UpCommand
  */
 public class UpCommand implements ICommand {
-    private MachineReceiver mechineReceiver;
+    private MachineReceiver machineReceiver;
 
-    public UpCommand(MachineReceiver mechineReceiver) {
-        this.mechineReceiver = mechineReceiver;
+    public UpCommand(MachineReceiver machineReceiver) {
+        this.machineReceiver = machineReceiver;
     }
 
     @Override
     public void execute() {
-        mechineReceiver.toUp();
+        machineReceiver.toUp();
     }
 }

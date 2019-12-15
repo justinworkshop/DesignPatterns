@@ -8,14 +8,14 @@ package com.example.command.uml2;
  * Description: LeftCommand
  */
 public class LeftCommand implements ICommand {
-    private MachineReceiver mechineReceiver;
+    private MachineReceiver machineReceiver;
 
-    public LeftCommand(MachineReceiver mechineReceiver) {
-        this.mechineReceiver = mechineReceiver;
+    public LeftCommand(MachineReceiver machineReceiver) {
+        this.machineReceiver = machineReceiver;
     }
 
     @Override
     public void execute() {
-        mechineReceiver.toLeft();
+        machineReceiver.toLeft();
     }
 }

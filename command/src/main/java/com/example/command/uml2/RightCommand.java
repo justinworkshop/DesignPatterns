@@ -8,14 +8,14 @@ package com.example.command.uml2;
  * Description: RightCommand
  */
 public class RightCommand implements ICommand {
-    private MachineReceiver mechineReceiver;
+    private MachineReceiver machineReceiver;
 
-    public RightCommand(MachineReceiver mechineReceiver) {
-        this.mechineReceiver = mechineReceiver;
+    public RightCommand(MachineReceiver machineReceiver) {
+        this.machineReceiver = machineReceiver;
     }
 
     @Override
     public void execute() {
-        mechineReceiver.toRight();
+        machineReceiver.toRight();
     }
 }

@@ -10,12 +10,12 @@ package com.example.command.uml2;
 public class Client2 {
 
     public static void main(String[] args) {
-        MachineReceiver mechineReceiver = new MachineReceiver();
+        MachineReceiver machineReceiver = new MachineReceiver();
 
-        UpCommand upCommand = new UpCommand(mechineReceiver);
-        DownCommand downCommand = new DownCommand(mechineReceiver);
-        LeftCommand leftCommand = new LeftCommand(mechineReceiver);
-        RightCommand rightCommand = new RightCommand(mechineReceiver);
+        UpCommand upCommand = new UpCommand(machineReceiver);
+        DownCommand downCommand = new DownCommand(machineReceiver);
+        LeftCommand leftCommand = new LeftCommand(machineReceiver);
+        RightCommand rightCommand = new RightCommand(machineReceiver);
 
         ControllerInvoker invoker = new ControllerInvoker();
         invoker.setUpCommand(upCommand);
