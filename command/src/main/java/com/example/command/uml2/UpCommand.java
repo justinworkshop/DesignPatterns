@@ -8,9 +8,9 @@ package com.example.command.uml2;
  * Description: UpCommand
  */
 public class UpCommand implements ICommand {
-    private MechineReceiver mechineReceiver;
+    private MachineReceiver mechineReceiver;
 
-    public UpCommand(MechineReceiver mechineReceiver) {
+    public UpCommand(MachineReceiver mechineReceiver) {
         this.mechineReceiver = mechineReceiver;
     }
 

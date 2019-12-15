@@ -2,12 +2,12 @@ package com.example.command.uml2;
 
 /**
  * Copyright (C), 2016-2020
- * FileName: MechineReceiver
+ * FileName: MachineReceiver
  * Author: wei.zheng
  * Date: 2019/12/13 21:16
- * Description: MechineReceiver
+ * Description: MachineReceiver
  */
-public class MechineReceiver {
+public class MachineReceiver {
     public void toUp() {
         System.out.println("UP");
     }

@@ -10,7 +10,7 @@ package com.example.command.uml2;
 public class Client2 {
 
     public static void main(String[] args) {
-        MechineReceiver mechineReceiver = new MechineReceiver();
+        MachineReceiver mechineReceiver = new MachineReceiver();
 
         UpCommand upCommand = new UpCommand(mechineReceiver);
         DownCommand downCommand = new DownCommand(mechineReceiver);

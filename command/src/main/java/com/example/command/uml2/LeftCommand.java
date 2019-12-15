@@ -8,9 +8,9 @@ package com.example.command.uml2;
  * Description: LeftCommand
  */
 public class LeftCommand implements ICommand {
-    private MechineReceiver mechineReceiver;
+    private MachineReceiver mechineReceiver;
 
-    public LeftCommand(MechineReceiver mechineReceiver) {
+    public LeftCommand(MachineReceiver mechineReceiver) {
         this.mechineReceiver = mechineReceiver;
     }
 

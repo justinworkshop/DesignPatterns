@@ -8,9 +8,9 @@ package com.example.command.uml2;
  * Description: DownCommand
  */
 public class DownCommand implements ICommand {
-    private MechineReceiver mechineReceiver;
+    private MachineReceiver mechineReceiver;
 
-    public DownCommand(MechineReceiver mechineReceiver) {
+    public DownCommand(MachineReceiver mechineReceiver) {
         this.mechineReceiver = mechineReceiver;
     }
 
