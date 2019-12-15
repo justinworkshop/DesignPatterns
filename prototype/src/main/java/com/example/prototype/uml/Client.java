@@ -7,7 +7,7 @@ import android.util.Log;
  * FileName: Client
  * Author: wei.zheng
  * Date: 2019/11/25 22:06
- * Description: 用户类
+ * Description: 原型模式用户类
  */
 public class Client {
     public static void main(String[] args) {
