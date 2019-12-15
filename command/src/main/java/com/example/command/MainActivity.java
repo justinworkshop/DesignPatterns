@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.command.uml.Client;
+import com.example.command.uml2.Client2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Client.main(null);
+
+        Client2.main(null);
     }
 }
