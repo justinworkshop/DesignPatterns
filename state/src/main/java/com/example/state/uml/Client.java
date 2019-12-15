@@ -5,7 +5,7 @@ package com.example.state.uml;
  * FileName: Client
  * Author: wei.zheng
  * Date: 2019/12/7 21:44
- * Description: 用户类
+ * Description: 状态模式用户类
  */
 public class Client {
     public static void main(String[] args) {
