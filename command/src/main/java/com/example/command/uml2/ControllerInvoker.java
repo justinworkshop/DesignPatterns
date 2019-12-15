@@ -5,27 +5,27 @@ package com.example.command.uml2;
  * FileName: ControllerInvoker
  * Author: wei.zheng
  * Date: 2019/12/15 9:22
- * Description: 控制器Invoker
+ * Description: 控制器Invoker，求请者角色，持有对应具体命令引用,调用命令方法完成请求
  */
 public class ControllerInvoker {
-    private UpCommand upCommand;
-    private DownCommand downCommand;
-    private LeftCommand leftCommand;
-    private RightCommand rightCommand;
+    private ICommand upCommand;
+    private ICommand downCommand;
+    private ICommand leftCommand;
+    private ICommand rightCommand;
 
-    public void setUpCommand(UpCommand upCommand) {
+    public void setUpCommand(ICommand upCommand) {
         this.upCommand = upCommand;
     }
 
-    public void setDownCommand(DownCommand downCommand) {
+    public void setDownCommand(ICommand downCommand) {
         this.downCommand = downCommand;
     }
 
-    public void setLeftCommand(LeftCommand leftCommand) {
+    public void setLeftCommand(ICommand leftCommand) {
         this.leftCommand = leftCommand;
     }
 
-    public void setRightCommand(RightCommand rightCommand) {
+    public void setRightCommand(ICommand rightCommand) {
         this.rightCommand = rightCommand;
     }
 

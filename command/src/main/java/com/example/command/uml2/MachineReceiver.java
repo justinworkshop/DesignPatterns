@@ -5,7 +5,7 @@ package com.example.command.uml2;
  * FileName: MachineReceiver
  * Author: wei.zheng
  * Date: 2019/12/13 21:16
- * Description: MachineReceiver
+ * Description: MachineReceiver, 接收者角色，实现具体业务逻辑
  */
 public class MachineReceiver {
     public void toUp() {
