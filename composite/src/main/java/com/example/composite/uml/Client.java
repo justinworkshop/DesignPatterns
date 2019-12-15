@@ -5,7 +5,7 @@ package com.example.composite.uml;
  * FileName: Client
  * Author: wei.zheng
  * Date: 2019/11/7 21:32
- * Description: 用户类
+ * Description: 组合模式用户类
  */
 public class Client {
 
