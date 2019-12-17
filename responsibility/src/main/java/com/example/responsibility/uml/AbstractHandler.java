@@ -1,4 +1,4 @@
-package com.example.iterator.uml;
+package com.example.responsibility.uml;
 
 /**
  * Copyright (C), 2016-2020

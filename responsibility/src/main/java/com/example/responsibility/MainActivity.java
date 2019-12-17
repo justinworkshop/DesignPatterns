@@ -1,9 +1,9 @@
-package com.example.iterator;
+package com.example.responsibility;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.iterator.uml.Client;
+import com.example.responsibility.uml.Client;
 
 public class MainActivity extends AppCompatActivity {
 

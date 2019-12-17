@@ -1,4 +1,4 @@
-package com.example.iterator;
+package com.example.responsibility;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

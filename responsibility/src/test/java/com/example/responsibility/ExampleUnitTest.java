@@ -1,4 +1,4 @@
-package com.example.iterator;
+package com.example.responsibility;
 
 import org.junit.Test;
 
