@@ -5,7 +5,7 @@ package com.example.iterator.uml;
  * FileName: Client
  * Author: wei.zheng
  * Date: 2019/12/11 21:16
- * Description: 用户类
+ * Description: 责任链模式用户类
  */
 public class Client {
     public static void main(String[] args) {
