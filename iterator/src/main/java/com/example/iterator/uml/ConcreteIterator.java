@@ -1,6 +1,5 @@
 package com.example.iterator.uml;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,7 +10,7 @@ import java.util.List;
  * Description: 具体迭代器
  */
 public class ConcreteIterator<T> implements IIterator<T> {
-    private List<T> list = new ArrayList<>();
+    private List<T> list;
     private int cursor = 0;
 
     public ConcreteIterator(List<T> list) {
