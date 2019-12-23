@@ -1,1 +1,1 @@
-include ':app', ':interpreter', ':command', ':mediator', ':flyweight', ':appreciatesolidandlod', ':composite', ':singleton', ':builder', ':mememto', ':prototype', ':factory', ':strategy', ':abstractfactory', ':state', ':responsibility', ':observer', ':iterator', ':template'
+include ':app', ':interpreter', ':command', ':mediator', ':flyweight', ':appreciatesolidandlod', ':composite', ':singleton', ':builder', ':mememto', ':prototype', ':factory', ':strategy', ':abstractfactory', ':state', ':responsibility', ':observer', ':iterator', ':template', ':visitor'
