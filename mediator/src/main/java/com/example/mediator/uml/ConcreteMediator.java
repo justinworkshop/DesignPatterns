@@ -7,7 +7,7 @@ package com.example.mediator.uml;
  * Date: 2019/10/25 22:22
  * Description: 具体中介者
  */
-public class ConcreteMediator extends Mediator {
+public class ConcreteMediator extends AbstractMediator {
 
     @Override
     public void method() {

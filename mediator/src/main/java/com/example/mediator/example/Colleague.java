@@ -2,7 +2,7 @@ package com.example.mediator.example;
 
 /**
  * Copyright (C), 2015-2019
- * FileName: Colleague
+ * FileName: AbstractColleague
  * Author: wei.zheng
  * Date: 2019/10/25 22:28
  * Description: 抽象同事

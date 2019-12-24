@@ -2,7 +2,7 @@ package com.example.mediator.example;
 
 /**
  * Copyright (C), 2015-2019
- * FileName: Mediator
+ * FileName: AbstractMediator
  * Author: wei.zheng
  * Date: 2019/10/25 22:25
  * Description: 抽象中介者

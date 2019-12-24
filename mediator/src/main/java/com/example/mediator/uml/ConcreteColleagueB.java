@@ -7,9 +7,9 @@ package com.example.mediator.uml;
  * Date: 2019/10/25 22:21
  * Description: 具体同事B
  */
-public class ConcreteColleagueB extends Colleague {
+public class ConcreteColleagueB extends AbstractColleague {
 
-    public ConcreteColleagueB(Mediator mediator) {
+    public ConcreteColleagueB(AbstractMediator mediator) {
         super(mediator);
     }
 
