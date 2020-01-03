@@ -1,7 +1,5 @@
 package com.example.composite.uml;
 
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,8 +10,8 @@ import java.util.List;
  * Date: 2019/11/7 21:27
  * Description: 具体枝干节点
  */
-public class BranchComponent extends Component {
-    private List<Component> components = new ArrayList<>();
+public class BranchComponent extends AbstractComponent {
+    private List<AbstractComponent> components = new ArrayList<>();
 
     public BranchComponent(String name) {
         super(name);
@@ -21,23 +19,27 @@ public class BranchComponent extends Component {
 
     @Override
     public void doSomething() {
-        Log.d("TAG", "name:" + name);
+        System.out.println("Branch :" + name);
         if (null != components) {
-            for (Component c : components) {
-                c.doSomething();
+            for (AbstractComponent component : components) {
+                component.doSomething();
             }
         }
     }
 
-    public void addChild(Component child) {
+    @Override
+    public void addChild(AbstractComponent child) {
         components.add(child);
     }
 
-    public void removeChild(Component child) {
+    @Override
+    public AbstractComponent getChild(int index) {
+        return components.get(index);
+    }
+
+    @Override
+    public void removeChild(AbstractComponent child) {
         components.remove(child);
     }
 
-    public Component getChild(int index) {
-        return components.get(index);
-    }
 }

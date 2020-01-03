@@ -1,7 +1,5 @@
 package com.example.composite.uml;
 
-import android.util.Log;
-
 /**
  * Copyright (C), 2016-2020
  * FileName: LeafComponent
@@ -9,13 +7,28 @@ import android.util.Log;
  * Date: 2019/11/7 21:26
  * Description: 具体叶子节点
  */
-public class LeafComponent extends Component {
+public class LeafComponent extends AbstractComponent {
     public LeafComponent(String name) {
         super(name);
     }
 
     @Override
     public void doSomething() {
-        Log.d("Leaf", "name:" + name);
+        System.out.println("Leaf :" + name);
+    }
+
+    @Override
+    public void addChild(AbstractComponent child) {
+        throw new UnsupportedOperationException("Leaf can not add child.");
+    }
+
+    @Override
+    public AbstractComponent getChild(int index) {
+        throw new UnsupportedOperationException("Leaf have not child.");
+    }
+
+    @Override
+    public void removeChild(AbstractComponent child) {
+        throw new UnsupportedOperationException("Leaf can not remove child.");
     }
 }

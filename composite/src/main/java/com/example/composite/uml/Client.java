@@ -5,7 +5,7 @@ package com.example.composite.uml;
  * FileName: Client
  * Author: wei.zheng
  * Date: 2019/11/7 21:32
- * Description: 组合模式用户类
+ * Description: 组合模式用户类 （透明的组合模式，所有的节点结构是相同的）
  */
 public class Client {
 
