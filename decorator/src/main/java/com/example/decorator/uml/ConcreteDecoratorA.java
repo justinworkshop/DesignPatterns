@@ -5,7 +5,7 @@ package com.example.decorator.uml;
  * FileName: ConcreteDecoratorA
  * Author: wei.zheng
  * Date: 2020/1/6 9:23
- * Description: 装饰者具体实现类A
+ * Description: 装饰者具体实现类A, 扩展operate方法，添加了自己的私有方法
  */
 public class ConcreteDecoratorA extends AbstractDecorator {
     public ConcreteDecoratorA(AbstractComponent component) {
